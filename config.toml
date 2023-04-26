@@ -1,7 +1,6 @@
 baseURL = "https://hamzeiehsan.github.io/"
 languageCode = "en-us"
 title = 'Ehsan Hamzei | Personal Website'
-theme = 'stack'
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 summarylength = 10
