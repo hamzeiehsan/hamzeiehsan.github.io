@@ -9,7 +9,7 @@ enableEmoji = true
 paginate = 5
 
 [params]
-  coverImage = "images/cover.png"
+  coverImage = "images/cover-dark-m.png"
 
   # ------------------
   # Syntax highlighter
