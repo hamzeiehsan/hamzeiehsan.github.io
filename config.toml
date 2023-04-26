@@ -1,7 +1,7 @@
 baseURL = "https://hamzeiehsan.github.io/"
 languageCode = "en-us"
 title = "Ehsan Hamzei | Personal Website"
-theme = "tranquilpeak"
+theme = "tranquilpeak-modified"
 defaultContentLanguage = "en-us"
 enableInlineShortcodes = true
 summarylength = 10
