@@ -1,4 +1,9 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
+baseURL = "https://hamzeiehsan.github.io/"
+languageCode = "en-us"
 title = 'Ehsan Hamzei | Personal Website'
 theme = 'stack'
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+summarylength = 10
+enableEmoji = true
+paginate = 5
