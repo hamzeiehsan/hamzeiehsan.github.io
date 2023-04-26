@@ -7,3 +7,22 @@ enableInlineShortcodes = true
 summarylength = 10
 enableEmoji = true
 paginate = 5
+
+# Markdown renderer configuration
+[goldmark.renderer]
+unsafe = false
+
+[tableOfContents]
+endLevel = 4
+ordered = true
+startLevel = 2
+
+[highlight]
+noClasses = false
+codeFences = true
+guessSyntax = true
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+tabWidth = 4
+
