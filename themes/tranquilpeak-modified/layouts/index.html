@@ -9,6 +9,24 @@
                {{ if eq .Params.covermeta "out" }}hasCoverMetaOut{{ else }}hasCoverMetaIn{{ end }}
                {{ with .Params.coverCaption }}hasCoverCaption{{ end }}">
         <section class="postShorten-group main-content-wrap">
+          <div class="postShorten-header">
+            <h1 class="postShorten-title">
+            About Me
+            </a>
+            </h1>
+            <div class="postShorten-meta post-meta">
+            </div>
+            </div>
+            <div class="postShorten-excerpt">
+            <p>Ehsan is a experienced programmer and spatial data scientist. He worked on several project in Australia and Iran. He is currently working as research fellow and data scientist on AURIN High Impact and ARC Projects.
+               He has got his PhD at the University of Melbourne (2021, May) working on spatial question answering systems.
+            </p>
+            <p>
+            <a href="" class="postShorten-excerpt_link link" aria-label="Open About Me">Continue reading</a>
+            </p>
+            </div>
+            </div>
+          </div>
           {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections ) }}
           {{ range $paginator.Pages }}
             {{ .Render "summary" }}
