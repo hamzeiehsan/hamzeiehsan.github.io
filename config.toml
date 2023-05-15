@@ -9,7 +9,7 @@ enableEmoji = true
 paginate = 5
 
 [params]
-  coverImage = "images/cover-dark-m.png"
+  coverImage = "images/cover-selected.png"
 
   # Hide sidebar on all article page to let article take full width to improve reading, and enjoy wide images and cover images. (true: enable, false: disable)
   clearReading = true
