@@ -29,4 +29,4 @@ But here's where it gets exciting—our approach doesn't rely on one-size-fits-a
 
 We're excited to share more insights and technical details about this project in the near future, so keep an eye on our updates. Our team is incredibly proud of this achievement, and we're committed to pushing the boundaries of innovation in the field of spatial data science. Thank you for your ongoing support, and stay tuned for more exciting developments!
 
-Special thanks to Kamal Akbari and Kimia Amouzandeh. It was an amazing experience for me, working with you guys on this project!
+Special thanks to Kamal Akbari and Kimia Amouzandeh. It was an amazing experience for me, working with you guys on this project! Check the repository in my Github account: [https://github.com/hamzeiehsan/Georeferencing_Location_Descriptions](https://github.com/hamzeiehsan/Georeferencing_Location_Descriptions)
