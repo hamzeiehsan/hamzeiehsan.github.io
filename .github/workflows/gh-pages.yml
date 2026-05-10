@@ -6,15 +6,15 @@ on:
       - main
   pull_request:
 
-# Silences the deprecation warnings by forcing the runner to run JS actions on Node 24
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+# This permission block is crucial for peaceiris/actions-gh-pages to push code
+permissions:
+  contents: write
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5 # Updated to v5 (Supports Node 24)
+      - uses: actions/checkout@v4 # Highly stable Node 20/24 compatible version
         with:
           submodules: true
           fetch-depth: 0
@@ -28,7 +28,7 @@ jobs:
         run: hugo --minify
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@v3 # Reverted to v3 to fix the exit code 1 bug
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
